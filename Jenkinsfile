@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u kalpnathrai -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push ankitjagtap/devops-integration'
+                   sh 'docker push kalpnathrai/devops-integration'
                 }
             }
         }
